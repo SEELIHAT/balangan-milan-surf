@@ -3,21 +3,13 @@
     border-radius:5px 55px 5px 55px;overflow:hidden;
      height:auto;height:auto; position:relative;
      margin-bottom: 20px;color:yellow;}.header p{padding:10px;}
-      .img{width:30px; padding:10px; animation-name:transform; animation-duration:8s;}
-      @keyframes rotate{10%{transform:rotate(3deg);}20%{transform:rotate(-3deg);}30%{transform:rotate(3deg);}
-      40%{transform:rotate(-3deg);}50%{transform:rotate(3deg);}
-      60%{transform:rotate(-3deg);}70%{transform:rotate(3deg);}80%{transform:rotate(-3deg);}90%{transform:rotate(3deg);}
-      100%{transform:rotate(1deg);}}
-       @keyframes transform{10%{transform:rotate(5deg) translateY(3px) translateY(3px) 
-        skew(5deg);}50%{transform:rotate(-5deg) translateY(-5px) translateY(-3px) skew(-0.06turn);}100%{transform:rotate(8deg)
-             translateY(8px)
-             translateY(3px) skew(-0.08turn);}}
+     
+      
          @keyframes color{0%{color:red;} 20%{color:yellow;}40%{color:blue;} 60%{color:gold;}80%{color:goldenrod}
          100%{color:gold;}}
  aside img{width:20px;height:20px;padding:15px;} svg{transform:scale(0.5)skew(30deg); position:absolute; top:50px; left:35%;}
- .hand::after{position:absolute; color:red; content:"hello";top:20px; z-index:1000;}
- .text{font-size:25px; font-style: italic; text-shadow: 3px 3px 10px red;
-color:yellow; width:90%; padding:10px; text-align:center; margin:auto;}
+ 
+
 .home{color:yellow; border:3px solid rgb(242, 242, 33);
      box-shadow:inset 2px 2px 0px 0px rgb(249, 94, 94); padding:3px; text-align:center;}
      .firsthome{position:absolute; top:110px;left:30px; display:grid;gap:20px;z-index:1000;}
@@ -26,82 +18,57 @@ color:yellow; width:90%; padding:10px; text-align:center; margin:auto;}
         display:grid; z-index:1000; opacity:0;}
         .opa{font-size:20px;color:red;padding:5px;border:5px solid red; font-weight: bold;  animation-name: color;
              animation-duration:8s; background-color: white;}
-             @keyframes border { 10%{border: 5px solid red;}
+             /*@keyframes border { 10%{border: 5px solid red;}
              30%{border:5px solid black;}
              50% {border:5px solid blue;}
              70%{border:5px solid green;}
              100%{border:5px solid red;}
                 
-             }
-             @keyframes feColorMatrix{0%{color:goldenrod;} 20%{color:cornflowerblue;}40%{color:blue;} 60%{color:rgb(193, 131, 32);}80%{color:goldenrod}
-             100%{color:red;}}
+             }*/
+            /* @keyframes feColorMatrix{0%{color:goldenrod;} 20%{color:cornflowerblue;}40%{color:blue;} 60%{color:rgb(193, 131, 32);}80%{color:goldenrod}
+             100%{color:red;}}*/
              .footercontact{height:200px; display:flex;border:3px solid yellow;
               box-shadow:inset 5px 5px 5px 1px black,
               inset -5px -5px 5px 1px black ; margin-top:-5px; 
               border-radius:15px 25px 15px 25px;overflow:hidden;}
              .addres{color:white;display:grid;margin-top:10px;margin-left:10px;padding:15px;}
-             .footerid{ height:200px; display:flex;border:3px solid yellow;
-               box-shadow:inset 5px 5px 5px 1px black,
-               inset -5px -5px 5px 1px black ; 
-               border-radius:15px 25px 15px 25px;overflow:hidden;}
-             .cafelight{font-size:25px; font-style: italic; text-shadow: 3px 3px 10px red; color:yellow;width:80%;padding:10px;
-               margin:auto; text-align:center;}
-             .orderfood{text-shadow:1px 1px 1px  gray;padding:auto;
-               animation-name:color;animation-duration:8s;margin-top:20px;margin:auto;text-align:center; 
-               color:rgb(246, 248, 242);}
-             .imgw{position: absolute;top:50px;right:5%;width:60px;border:3px groove yellow;border-radius:50%;z-index:-1;
-               opacity:0.7;}
-             .imgq{position: absolute; top:10px;right:10%;width:60px;border:3px groove yellow;border-radius:50%;z-index:-1;
-               opacity:0.7;}
-             .header img{border-radius:25px 45px 25px 45px; border:5px double goldenrod; box-shadow:inset 8px 8px 3px 0 goldenrod,
-                inset -8px -8px 3px 0 goldenrod;} 
+             
+             
+            
+            
+            
+              
                  svg{transform:scale(0.5)skew(30deg); position:absolute; top:50px; left:35%;}
-                 .hand::after{position:absolute; color:red; content:"hello";top:20px; z-index:1000;}
+                
                   .nintendo{width:100%;height:auto; margin:auto;padding-top:40px;justify-content:center; text-align:center;}
                   .start{display:flex;margin-top:10px;}
                  
                   
-                  .end{display:flex;}
-                  .tendo{width:100%; height:auto; margin:auto;padding-top:40px;justify-content:center; text-align:center;}
+                 
+                  
                   .red{background-color:red;}
-                  .order{font-size:3px;opacity:0;}
-                  body{background-color:rgb(193, 131, 32);}
+                  
+                  
                   .twoaside{border:3px solid white;position:fixed;left:15%; top:200px;
                  border:5px solid white;display:grid; z-index:1000; opacity:0;}
-                 .pictures{text-align:center;margin:auto;}
-                 .header{width:320px;display:flex; gap:15px;}
-                 .texttop{color:yellow; font-size: 16px;font-style: italic;text-align:center; 
-                  text-shadow:2px 2px 4px black,
-                  -2px -2px 4px black;
-                         }
-                 .bask{width:150px;border:5px solid gold;}
+                
+                 
+                 
+                
                  @keyframes rotates{10%{transform:rotate(15deg);}20%{transform:rotate(-15deg);}
                  30%{transform:rotate(15deg);}40%{transform:rotate(-15deg);}50%{transform:rotate(15deg);}
                  60%{transform:rotate(-15deg);}70%{transform:rotate(15deg);}80%{transform:rotate(-15deg);}
                  90%{transform:rotate(15deg);}100%{transform:rotate(-1deg);}}
-                 .info{color:blue;text-align: center; font-size:20px; font-style: italic;border:5px solid blueviolet; padding:5px;}
+                
 
 
-                 .dropdown-content a{padding:3px; color:red; border:3px solid gray; background-color:yellow; }
+                 
 
 
-.dropdown {
-        position: relative;
-        display: inline-block;
-      }
+
   
-.dropdown-content {
-        display: none;
-        position: absolute;
-        background-color:white;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-      }
- 
-.dropdown:hover .dropdown-content {
-        display: grid;
-      }
+
+
                  
     iframe { border:5px solid rgb(118, 104, 28);}
     .ras{margin-left:25%;margin-top:3%;border:3px solid red;width:200px;height:200px;overflow: hidden;}
@@ -191,10 +158,8 @@ color:yellow; width:90%; padding:10px; text-align:center; margin:auto;}
          100%{color:gold;}}
          
  aside img{width:20px;height:20px;padding:15px;} svg{transform:scale(0.5)skew(30deg); position:absolute; top:50px; left:35%;}
- .hand::after{position:absolute; color:black;font-size:17px; font-weight: bold ; content:"PRESS HERE⇘";top:20px; z-index:1000; 
- transform: translateX(10px);animation-name:translate;animation-duration:8s;}
- @keyframes translate{10%{transform:translateX(-40px);} 30%{transform:translateX(30px);} 
- 50%{transform:translateX(-30px);} 60%{ transform:translateX(-20px)} 80%{transform:translateX(-10px);} 100%{transform:translateX(10PX);}}
+ 
+
  .babasurf{position:absolute;top:0px; z-index:-3;}
  .classall{display:flex; margin:auto;overflow: hidden;flex-wrap: wrap;margin-top:30px;}
  .classone{width:280px; height:550px;background-color:brown;color:yellow;font-size:25px;
@@ -221,13 +186,38 @@ color:yellow; width:90%; padding:10px; text-align:center; margin:auto;}
         .red {
           color: red;
         }
-
+.overends{margin:auto;color:white;;font-size:20px;}
         .bask{animation-name:rotates;animation-duration:8s; width:50px; height:auto;}
- 
-
+ .beforeoverends{width:150px;height:150px; border:1px solid yellow;border-radius:50%;
+  justify-content: center; text-align:center; align-items:center; margin-top:20px;}
+.beforebefore{text-align:center;align-items:center;justify-content: space-around;}
 .twoaside{position:fixed;left:15%; top:200px;
         display:grid; z-index:1000; opacity:0;}
         .opa{font-size:20px;color:red;padding:5px;border:5px solid red; font-weight: bold;  animation-name: color;
              animation-duration:8s; background-color: white;}
-      
+             h2{ background-color:none;color:black;text-shadow:3px 3px 3px white; font-size:30px; font-style:italic;}
+             .dropdown-content a{padding:3px; color:red; border:3px solid gray; background-color:yellow; }
+             .header img{border-radius:25px 45px 25px 45px; border:5px double goldenrod; box-shadow:inset 8px 8px 3px 0 goldenrod,
+              inset -8px -8px 3px 0 goldenrod;} 
+              .pictures{text-align:center;margin:auto;}
+             .dropdown {
+                     position: relative;
+                     display: inline-block;
+                   }
+               
+             .dropdown-content {
+                     display: none;
+                     position: absolute;
+                     background-color:white;
+                     min-width: 160px;
+                     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                     z-index: 1;
+                   }
+              
+             .dropdown:hover .dropdown-content {
+                     display: grid;
+                   }
+                   .texttop{color:white; font-size: 16px;font-style: italic;text-align:center;}
+                              
+                                
        
