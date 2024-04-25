@@ -204,7 +204,8 @@
                      position: relative;
                      display: inline-block;
                    }
-               
+                   .order{font-size:3px;opacity:0;}
+                   .header{width:320px;display:flex; gap:15px;} 
              .dropdown-content {
                      display: none;
                      position: absolute;
