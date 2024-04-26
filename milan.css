@@ -224,6 +224,14 @@
                     .h2{text-align:center; color:gold; font-size: 16px;font-style: italic;text-align:center;
                       text-shadow: 2px 2px 3px black,
                       -2px -2px 3px black;}
+                      h3{color :white; font-size:10px; font-style:italic;}
+                      .aindex{ background-color:none;color:black;text-shadow:3px 3px 3px white; font-size:30px; font-style:italic;}
                               
-                                
+                    .bindex{ 
+                      text-shadow:1px 1px 3px white,
+                      -1px -1px 3px white ;
+                    font-size:18px;
+                    color:black;}
+                    .divaindex{position:absolute;text-align:center;top:10px;padding:10px;
+                      font-weight:bold;}            
        
