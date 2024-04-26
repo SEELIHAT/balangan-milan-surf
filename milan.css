@@ -72,7 +72,7 @@
                  
     iframe { border:5px solid rgb(118, 104, 28);}
     .ras{margin-left:25%;margin-top:3%;border:3px solid red;width:200px;height:200px;overflow: hidden;}
-    .dwa{margin-left:3%;margin-top:-30%; border:3px solid red;width:200px;height:200px;overflow: hidden;}
+    .dwa{margin-left:-13%;margin-top:-30%; border:3px solid red;width:200px;height:200px;overflow: hidden;}
     .tri{margin-left:25%;margin-top:-40%;border:3px solid red;width:200px;height:200px;overflow: hidden;}
     .bodi{margin:auto;display:grid;}
       
