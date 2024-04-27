@@ -162,9 +162,9 @@
 
  .babasurf{position:absolute;top:0px; z-index:-3;}
  .classall{display:flex; margin:auto;overflow: hidden;flex-wrap: wrap;margin-top:30px;}
- .classone{width:280px; height:550px;background-color:brown;color:yellow;font-size:25px;
+ .classone{width:280px; height:550px;background-color:brown;color:yellow;font-size:23px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  border:5px solid goldenrod;text-align:center;display:grid; border-radius:15px 25px 15px 25px ;margin:auto;}
+  border:5px solid goldenrod;text-align:center;display:grid; border-radius:15px 25px 15px 25px ;margin:auto;grid-template-rows: 300px 190px 60px;}
 
  .baat{width:50px;height:30px; color:yellow; background:red; border-radius:10%;
    position:relative;z-index:1500; }
@@ -233,5 +233,10 @@
                     font-size:18px;
                     color:black;}
                     .divaindex{position:absolute;text-align:center;top:10px;padding:10px;
-                      font-weight:bold;}            
+                      font-weight:bold;}
+                      
+                      .textclass{grid-row: 1;}
+                      .imgclassone{grid-row: 2;}
+                      .divclass{grid-row: 3;}
+                                
        
